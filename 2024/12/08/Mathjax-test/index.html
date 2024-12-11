@@ -19,15 +19,15 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.21.1","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="这篇博客主要是测试 hexo 的 Next 主题的 Mathjax 渲染功能。主要参考的链接有：  Hexo渲染数学公式：配置方法与原理浅释 Hexo+NexT使用MathJax问题 配置MathJax Math Equations  譬如行内公式 ，以及行间公式  目前来看效果不错。而跨文件的公式引用暂时还比较困难，需要手动指定。">
+    <meta name="description" content="Mathjax 测试 这篇博客主要是测试 hexo 的 Next 主题的 Mathjax 渲染功能。主要参考的链接有：  Hexo渲染数学公式：配置方法与原理浅释 Hexo+NexT使用MathJax问题 配置MathJax Math Equations  譬如行内公式 ，以及行间公式  目前来看效果不错。而跨文件的公式引用暂时还比较困难，需要手动指定。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Mathjax 测试">
 <meta property="og:url" content="http://example.com/2024/12/08/Mathjax-test/index.html">
 <meta property="og:site_name" content="Painday&#39;s Blog">
-<meta property="og:description" content="这篇博客主要是测试 hexo 的 Next 主题的 Mathjax 渲染功能。主要参考的链接有：  Hexo渲染数学公式：配置方法与原理浅释 Hexo+NexT使用MathJax问题 配置MathJax Math Equations  譬如行内公式 ，以及行间公式  目前来看效果不错。而跨文件的公式引用暂时还比较困难，需要手动指定。">
+<meta property="og:description" content="Mathjax 测试 这篇博客主要是测试 hexo 的 Next 主题的 Mathjax 渲染功能。主要参考的链接有：  Hexo渲染数学公式：配置方法与原理浅释 Hexo+NexT使用MathJax问题 配置MathJax Math Equations  譬如行内公式 ，以及行间公式  目前来看效果不错。而跨文件的公式引用暂时还比较困难，需要手动指定。">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2024-12-08T14:05:41.585Z">
-<meta property="article:modified_time" content="2024-12-11T13:21:38.841Z">
+<meta property="article:modified_time" content="2024-12-11T13:37:29.800Z">
 <meta property="article:author" content="painday">
 <meta property="article:tag" content="test">
 <meta name="twitter:card" content="summary">
@@ -203,7 +203,7 @@ mjx-container[display="true"] + br {
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           Table of Contents
@@ -216,6 +216,7 @@ mjx-container[display="true"] + br {
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#mathjax-%E6%B5%8B%E8%AF%95"><span class="nav-text">Mathjax 测试</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -296,7 +297,7 @@ mjx-container[display="true"] + br {
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2024-12-11 21:21:38" itemprop="dateModified" datetime="2024-12-11T21:21:38+08:00">2024-12-11</time>
+      <time title="Modified: 2024-12-11 21:37:29" itemprop="dateModified" datetime="2024-12-11T21:37:29+08:00">2024-12-11</time>
     </span>
 
   
@@ -308,7 +309,8 @@ mjx-container[display="true"] + br {
     
     
     
-    <div class="post-body" itemprop="articleBody"><p>这篇博客主要是测试 hexo 的 Next 主题的 Mathjax 渲染功能。主要参考的链接有：</p>
+    <div class="post-body" itemprop="articleBody"><h1 id="mathjax-测试">Mathjax 测试</h1>
+<p>这篇博客主要是测试 hexo 的 Next 主题的 Mathjax 渲染功能。主要参考的链接有：</p>
 <ul>
 <li><a target="_blank" rel="noopener" href="https://pku-zyf.github.io/formula/">Hexo渲染数学公式：配置方法与原理浅释</a></li>
 <li><a target="_blank" rel="noopener" href="https://i-m.dev/posts/20190304-210101.html">Hexo+NexT使用MathJax问题</a></li>
