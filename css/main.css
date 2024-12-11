@@ -1223,7 +1223,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #ff01e2;
+  background: #ff7963;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -1315,6 +1315,24 @@ pre code {
   top: -6px;
   transform: rotate(-45deg);
 }
+.blog-list-wrap {
+  margin-top: 20px;
+}
+.blog-list-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.blog-list {
+  list-style: none;
+  padding: 0;
+}
+.blog-list-item {
+  margin-bottom: 5px;
+}
+.blog-list-date {
+  color: #999;
+  font-size: 0.9em;
+}
 .sidebar-nav {
   font-size: 0.875em;
   height: 0;
@@ -1404,6 +1422,24 @@ pre code {
   gap: 10px;
   justify-content: flex-start;
 }
+.blog-list-wrap {
+  margin-top: 20px;
+}
+.blog-list-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.blog-list {
+  list-style: none;
+  padding: 0;
+}
+.blog-list-item {
+  margin-bottom: 5px;
+}
+.blog-list-date {
+  color: #999;
+  font-size: 0.9em;
+}
 @keyframes deactivate-sidebar-panel {
   from {
     height: var(--inactive-panel-height, 0);
@@ -1466,6 +1502,24 @@ pre code {
 }
 .post-toc .nav .active-current > a:hover {
   color: #87daff;
+}
+.blog-list-wrap {
+  margin-top: 20px;
+}
+.blog-list-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.blog-list {
+  list-style: none;
+  padding: 0;
+}
+.blog-list-item {
+  margin-bottom: 5px;
+}
+.blog-list-date {
+  color: #999;
+  font-size: 0.9em;
 }
 .site-author-image {
   border: 2px solid #333;
@@ -1566,6 +1620,24 @@ pre code {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+.blog-list-wrap {
+  margin-top: 20px;
+}
+.blog-list-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.blog-list {
+  list-style: none;
+  padding: 0;
+}
+.blog-list-item {
+  margin-bottom: 5px;
+}
+.blog-list-date {
+  color: #999;
+  font-size: 0.9em;
 }
 .footer {
   color: #999;
